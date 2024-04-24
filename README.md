@@ -27,9 +27,12 @@ py -3 -m venv .venv
 .venv\Scripts\activate
 pip install Flask xgboost numpy pandas
 ```
-add app.py in .venv folder
-make directory model in .venv
-add model.joblib file in .venv/model
+add app.py in .venv folder.
+
+make directory model in .venv.
+
+add model.joblib file in .venv/model.
+
 and run
 ```bash
 flask run -h localhost -p 80
